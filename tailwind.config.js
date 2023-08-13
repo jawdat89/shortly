@@ -16,7 +16,7 @@ module.exports = {
         sans: ["Poppins", "sans-serif"],
       },
       spacing: {
-        128: "32rem",
+        180: "32rem",
       },
     },
   },
