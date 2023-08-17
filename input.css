@@ -18,9 +18,20 @@
   }
 }
 
+#cta {
+  background-image: url("../images/bg-boost-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .content-area {
   @apply bg-green-200;
   height: theme("spacing.180");
+}
+
+.ficon:hover {
+  filter: invert(79%) sepia(61%) saturate(464%) hue-rotate(160deg)
+    brightness(89%) contrast(85%);
 }
 
 @media screen(xl) {
